@@ -1,0 +1,27 @@
+/* styles.css */
+
+.container {
+    text-align: center; /* Centrer le contenu horizontalement */
+    margin-top: 50px; /* Marge supérieure pour l'espacement */
+}
+
+#color-box {
+    width: 200px; /* Largeur fixe */
+    height: 200px; /* Hauteur fixe */
+    background-color: #ccc; /* Couleur d'arrière-plan par défaut */
+}
+
+#change-color-btn {
+    padding: 10px 20px; /* Ajouter un peu d'espace autour du texte */
+    font-size: 16px; /* Taille de police */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de souris */
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+#change-color-btn:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
